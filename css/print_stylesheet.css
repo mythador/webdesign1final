@@ -1,0 +1,33 @@
+@charset "utf=8";
+
+/*
+   Web Design 1
+   Unit 3 Project
+   
+   Resume Website
+   Author: Jason White
+   Date:   05/08/2024
+
+   Filename: print_stylesheet.css
+*/
+
+@page 
+{
+    size: 8.5in 11in;
+    margin: 1in;
+}
+
+html
+{
+    font-size: 12pt;
+    color: black;
+}
+
+.noprint
+{
+    display: none;
+}
+
+div#resumediv{
+    border-top: none;
+}

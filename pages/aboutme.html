@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!--
+    Web Design 1
+    Unit 3 Project
+    
+    Resume Website
+    Author: Jason White
+    Date:   05/08/2024
+
+    Filename: index.html
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Jason White, Jason R. White, about me, resume" />
+    <title>Jason R. White - About Me</title>
+    <link rel="stylesheet" href="../css/site_styles.css">
+    <link rel="stylesheet" href="../css/header_styles.css">
+    <link rel="stylesheet" href="../css/index_columns.css">
+    <link rel="stylesheet" href="../css/custom_fonts.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/footer_styles.css">
+</head>
+
+<body onload="startTime()">
+
+    <header>
+        <nav id="navtop">
+            <h1>JASON R. WHITE</h1>
+            <h4>SYSTEMS ENGINEER</h4>
+        </nav>
+        <nav id="navtoplinks">
+            <ul id="topul">
+                <li id="topli"></li>
+                <li id="topli"><a href=".././index.html" id="headerlink">HOME</a></li>
+                <li id="topli"><a href="./aboutme.html" id="headerlink">ABOUT</a></li>
+                <li id="topli"><a href="./resume.html" id="headerlink">RESUME</a></li>
+                <li id="topli""></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section> 
+        <div id="divabout">
+            <figure id="aboutmepic1">
+                <img src="../images/gardenpic.jpg" id="aboutmegarden">
+            </figure>
+            <p id="about1"><br><br>My mother used to garden when I was young, and my brother and I were
+                responsible for picking the weeds.  We were the perfect size to crawl in between
+                the plants and pick the tomatoes next to the ground. This childhood memory followed
+                into my adult life and every year you can find me out in my own very own garden planting,
+                picking, and weeding.
+            </p>
+        </div>
+        <div id="divabout">
+            <figure id="aboutmepic2">
+                <img src=".././images/videogames.jpg" id="aboutmevideo">
+            </figure>
+            <p id="about2"><br><br>Pong was the first video game system that I was introduced back in the 1980s.
+                Whether it was the Atari, the NES, the Genesis, or any of the gaming consoles that came after,
+                I've had them and I've played them.  My video game collection spans multiple decades, and it
+                would take a trailer to haul.  I don't play many video games anymore, but every one in a while
+                I add to my collection.
+            </p>
+        </div>
+        <div id="divabout">
+            <figure id="aboutmepic3">
+                <img src="../images/family.jpg" id="aboutmefamily">
+            </figure>
+            <p id="about3"><br><br>A proud single father of three boys, we're active in scouting, hockey, backyard camping, and lots
+                of other stuff.  You might find us cheering on the Pointers at a game, on a walk cleaning up litter in
+                the neighborhood, or taking turns on the original Super Mario Bros.
+            </p>
+        </div>
+        <div id="divaudio">
+            <audio controls>
+                <source src="../media/supermario.mp3" type="audio/mp3">
+            </audio>
+        </div>
+    </section>
+
+    <footer>
+        <nav id="navfooter">
+            <ul id="footerul">
+                <li id="footerli">Phone</li>
+                <li id="footerli">Email</li>
+                <li id="footerli">Follow Me</li>
+            </ul>
+            <ul id="footerul">
+                <li id="footerli2"><a href="tel:7154120173" id="footernavlink">715.412.0173</a></li>
+                <li id="footerli2"><a href="mailto:trivianinja1@gmail.com" id="footernavlink">trivianinja1@gmail.com</a></li>
+                <li id="footerli2"><a href="https://www.linkedin.com/in/jason-white-7155a6186" id="footernavlink">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <div id="divfooter">
+            <span>Jason R. White &copy 2024</span>
+            <span id="clock"></span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

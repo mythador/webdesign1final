@@ -1,0 +1,20 @@
+@charset "utf-8";
+
+/*
+   Web Design 1
+   Unit 3 Project
+   
+   Resume Website
+   Author: Jason White
+   Date:   05/08/2024
+
+   Filename: index_columns.css
+*/
+
+article {
+   column-width: 260px;
+   column-gap: 20px;
+   widows: 3;
+   orphans: 3;
+   margin: auto;
+}

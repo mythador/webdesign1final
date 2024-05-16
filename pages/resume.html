@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!--
+    Web Design 1
+    Unit 3 Project
+    
+    Resume Website
+    Author: Jason White
+    Date:   05/08/2024
+
+    Filename: index.html
+    -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="Jason White, Jason R. White, about me, resume" />
+    <title>Jason R. White - Resume</title>
+    <link rel="stylesheet" href="../css/site_styles.css">
+    <link rel="stylesheet" href="../css/header_styles.css">
+    <link rel="stylesheet" href="../css/index_columns.css">
+    <link rel="stylesheet" href="../css/custom_fonts.css">
+    <link rel="stylesheet" href="../css/footer_styles.css">
+    <link rel="stylesheet" href="../css/print_stylesheet.css" media="print">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=swap" rel="stylesheet">
+    <script src="../scripts/scripts.js" defer></script>
+</head>
+
+<body onload="startTime()">
+    
+    <header class="noprint">
+        <nav id="navtop">
+            <h1>JASON R. WHITE</h1>
+            <h4>SYSTEMS ENGINEER</h4>
+        </nav>
+        <nav id="navtoplinks">
+            <ul id="topul">
+                <li id="topli"></li>
+                <li id="topli"><a href=".././index.html" id="headerlink">HOME</a></li>
+                <li id="topli"><a href="./aboutme.html" id="headerlink">ABOUT</a></li>
+                <li id="topli"><a href="./resume.html" id="headerlink">RESUME</a></li>
+                <li id="topli""></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="resumesection">
+        <div id="resumedivheader">
+            <h1>Jason R. White</h1>
+            <h4>Stevens Point, WI 54482 • W: (715) 346-6622 • H: (715) 544-6602 • C: (715) 412-013 • jason.white@sentry.com</h4>
+        </div>
+        <div id="resumediv">
+            <h2>PROFESSIONAL GOAL</h2>
+            <p>
+                To utilize my Electronic Publishing technical and leadership skills and enhance my knowledge in RPD, IQ, and Videk, all while
+                working on Sentry's projects, including the IT Print Modernization initiative. To expand and enhance my leadership and
+                coordination skills within Electronic Publishing and other Sentry teams to drive projects forward effectively and efficiently.
+                To be recognized as a Systems Engineer, based on my extensive publishing work experience, coupled with my current and
+                past enrollment at MSTC, to advance my career, my team, and Sentry as a whole.
+            </p>
+        </div>
+        <div id="resumediv">
+            <h2>EMPLOYMENT HISTORY</h2>
+            <h3>Electronic Publishing Analyst</h3>
+            <h3>Sentry Insurance, Stevens Point, WI - 01/2007 - Current</h3>
+            <nav>
+                <ul>
+                    <li>Exhibiting technical software skills and critical thinking to identify gaps and issues and provide instrumental
+                        feedback that leads to solutions.</li>
+                    <li>Onboarding over 10 associates to new software products and technologies, most recently Quadient Inspire CCM.</li>
+                    <li>Provide direction and support to configuration team members to maintain current goals and established deadlines.</li>
+                    <li>Development of workflows for single paper type output, matching paper type output, and in-house check printing
+                        used for Sentry’s Print Modernization.</li>
+                    <li>Developed the Quadient AFP file composition, insert machine and perforation barcode logic, and automated batch
+                        processes for the OPUS Conversion Project.</li>
+                    <li>Subject Matter Expert on the print job batching design and implementation for OPUS Inspire batch workflows.</li>
+                    <li>Research, evaluation, and selection of new CCM software, resulting in the purchase of Quadient Inspire CCM.</li>
+                    <li>24/7 support for publishing tools and solutions. Goes above and beyond for support, monitoring, and delivery.</li>
+                </ul>
+            </nav>
+            <h3>Documents Specialist</h3>
+            <h3>Sentry Insurance, Stevens Point, WI - 01/1996 - 01/2007</h3>
+            <nav>
+                <ul>
+                    <li>Development of user-driven, streamlined templates, and documents for departmental and companywide use,
+                        harnessing the Microsoft Office suite of products.</li>
+                    <li>Spearheaded the use of the Microsoft Visual Basic to automate the generation of reports, spreadsheets, and
+                        documents for storage within the Mainframe.</li>
+                    <li>I provided professional and prompt service for documents for Human Resources, Claims, National Accounts, Life
+                        and Annuities, and SP&amp;C departments.</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="resumediv">
+            <h2>SKILLS</h2>
+            <nav>
+                <ul>
+                    <li>Quadient Inspire CCM</li>
+                    <li>Oracle Documaker CCM</li>
+                    <li>Control-M Workload Automation</li>
+                    <li>Ricoh Process Director</li>
+                    <li>Quadient Inspire Scripting Language</li>
+                    <li>Documaker Scripting Language</li>
+                    <li>JIRA</li>
+                    <li>Confluence</li>
+                    <li>Agile Methodology</li>
+                </ul>
+            </nav>
+        </div>
+        <div id="resumediv">
+            <h2>EDUCATION - Mid-State Technical College, Stevens Point, WI</h2>
+            <h3>Current - May 2026 - Associate in Applied Science: IT Software Developer</h3> <!-- UNDERLINE -->
+            <h3>1996 - 1999 - Associate in Computer Information Systems: Programmer Analyst - 40 Computer Science credits completed</h3>
+        </div>
+        <div>
+            <button type="button" onclick="printResume()" id="resumebutton">Print Resume</button>
+        </div>
+    </section>
+
+    <footer class="noprint">
+        <nav id="navfooter"> <!-- LEFT ALIGN -->
+            <ul id="footerul">
+                <li id="footerli">Phone</li>
+                <li id="footerli">Email</li>
+                <li id="footerli">Follow Me</li>
+            </ul>
+            <ul id="footerul">
+                <li id="footerli2"><a href="tel:7154120173" id="footernavlink">715.412.0173</a></li>
+                <li id="footerli2"><a href="mailto:trivianinja1@gmail.com" id="footernavlink">trivianinja1@gmail.com</a></li>
+                <li id="footerli2"><a href="https://www.linkedin.com/in/jason-white-7155a6186" id="footernavlink">LinkedIn</a></li>
+            </ul>
+        </nav>
+        <div id="divfooter">
+            <span>Jason R. White &copy 2024</span>
+            <span id="clock"></span>
+        </div>
+    </footer>
+
+</body>
+
+</html>

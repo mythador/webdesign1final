@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+/*
+   Web Design 1
+   Unit 3 Project
+   
+   Resume Website
+   Author: Jason White
+   Date:   05/08/2024
+
+   Filename: header_styles.css
+*/
+
+nav#navtop {
+    /*margin: auto; /*center aligns navbar*/
+	/*display: table;*/
+	width: 100%;
+    text-align: left;
+    padding: 5px 0px 0px 0px;
+    background-color: gray;
+}
+
+nav#navtop h1{
+    font-size: 40px;
+    line-height: 0em;
+    color: white;
+    padding-left: 20px;
+}
+
+nav#navtop h4{
+    font-size: 15px;
+    line-height: 3em;
+    color: white;
+    padding-left : 20px;
+}
+
+nav#navtoplinks {
+    margin: auto; /*center aligns navbar*/
+	display: table;
+	width: 100%;
+    text-align: center;
+}
+
+ul#topul {
+	display: table-row;
+}
+
+li#topli {
+	display: table-cell;
+    padding: 10px 20px 10px 20px;
+    background-color: lightgrey;
+    width:20%;
+    font-size: 16pt;
+}
+
+a#headerlink:link{
+    color: black;
+}
+a#headerlink:visited{
+    color: black;
+}
+a#headerlink:hover{
+    color: black;
+    background-color: darkgray;
+}

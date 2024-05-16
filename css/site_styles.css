@@ -1,0 +1,125 @@
+@charset "utf-8";
+
+/*
+   Web Design 1
+   Unit 3 Project
+   
+   Resume Website
+   Author: Jason White
+   Date:   05/08/2024
+
+   Filename: site_styles.css
+*/
+
+body {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1024px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.4;
+    font-size: 12px;
+}
+
+section h1{
+    text-align: center;
+}
+
+section h4{
+    text-align: center;
+}
+
+section#homesection{
+    margin: auto;
+}
+
+section#resumesection{
+    width: 90%;
+    margin: auto;
+}
+
+figure#jasonfigure{
+    height: 75%;
+    width: 75%;
+    margin: auto;
+}
+
+img#jasonimg{
+    height: 60%;
+    width: 60%;
+    margin: 20px;
+}
+
+div#divabout {
+    clear: both;
+    width: 90%;
+    margin: auto
+}
+
+div#divaudio {
+    clear: both;
+    width: 25%;
+    margin: auto;
+}
+
+figure#aboutmepic1 {
+    float: left;
+    filter: grayscale(100%);
+}
+
+figure#aboutmepic1:hover {
+    filter: none;
+}
+
+figure#aboutmepic2 {
+    float: right;
+    filter: grayscale(100%);
+}
+
+figure#aboutmepic2:hover {
+    filter: none;
+}
+
+figure#aboutmepic3 {
+    float: left;
+    filter: grayscale(100%);
+}
+
+figure#aboutmepic3:hover {
+    filter: none;
+}
+
+p#about1{
+    font-size: 12pt;
+}
+
+p#about2{
+    margin-left: 40px;
+    font-size: 12pt;
+}
+
+p#about3{
+    font-size: 12pt;
+}
+
+section#resumesection h1{
+    font-size: 20pt;
+}
+
+section#resumesection h3, p, li{
+    font-size: 12pt;
+}
+
+div#resumedivheader{
+    background-color: lightblue;
+}
+
+div#resumediv{
+    border-top: dashed lightblue;
+}
+
+button#resumebutton{
+    display: block;
+    margin: auto;
+    padding: 1em;
+    margin-bottom: 40px;
+}
